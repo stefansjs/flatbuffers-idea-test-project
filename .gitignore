@@ -1,0 +1,2 @@
+# I'm ignoring the entire idea directory because we'll likely be testing this repository under many different IDEA versions
+.idea
