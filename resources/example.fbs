@@ -22,7 +22,8 @@ table Monster {
   friendly:bool = false (deprecated, priority: 1);
   inventory:[ubyte];
   color:Color = Blue;
-  test:Any;
+  kind:Any;
+  weakness:MyGame.Any;
 }
 
 root_type Monster;
