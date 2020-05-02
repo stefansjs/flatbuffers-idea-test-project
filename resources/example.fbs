@@ -6,7 +6,7 @@ attribute "priority";
 
 enum Color : byte { Red = 1, Green, Blue }
 
-union Any { Monster, Weapon, Pickup }
+union Any { mon:Monster, Weapon, Pickup }
 
 struct Vec3 {
   x:float;
