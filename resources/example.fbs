@@ -24,6 +24,7 @@ table Monster {
   color:Color = Blue;
   kind:Any;
   weakness:MyGame.Any;
+  intarray:[int:5];
 }
 
 root_type Monster;
